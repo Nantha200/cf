@@ -37,6 +37,11 @@
                 grid-gap: 1rem; /* Adjust the gap between columns and rows as needed */
             }
         }
+        .background-box {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+            top: 0;
+            left: 0;
+          }
     </style>
 </head>
 
@@ -157,13 +162,10 @@
             <div class="r-container">
                 <div class="image-overlay"></div>
                 <div class="d-flex flex-column position-relative py-5" style="z-index: 2;">
-                    <h2 class="text-white" style="font-size: 50px;">DESIGN RESEARCH</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb fw-bold">
-                            <li class="breadcrumb-item"><a href="index.html">HOME &nbsp;</a></li>
-                            <li class="fw-bold text-white">DESIGN RESEARCH</li>
-                        </ol>
-                    </nav>
+                    <div class="background-box position-absolute w-100 h-100"></div>
+
+                    <h2 class="text-white lh-1 text-center">DESIGN RESEARCH</h2>
+                    
                 </div>
             </div>
         </section>
