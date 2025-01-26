@@ -80,7 +80,6 @@ a {
 
 .font-1 {
     font-family: var(--font-1);
-    text-align: justify;
 }
 
 .font-2 {
@@ -439,7 +438,7 @@ a {
     animation-timing-function: linear;
     animation-delay: 500ms;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.2;
     /* font-weight: 700; */
     font-family: var(--font-1);
@@ -880,7 +879,7 @@ a {
     }
 
     h6 {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .section {
