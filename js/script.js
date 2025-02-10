@@ -39,9 +39,4 @@ $(window).ready(function() {
     /*--------------------------
       ScrollUp
   ---------------------------- */
-  $.scrollUp({
-    scrollText: '<i class="fa fa-arrow-up"></i>',
-    easingType: 'linear',
-    scrollSpeed: 100,
-    animation: 'fade'
-});
+
