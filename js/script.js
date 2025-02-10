@@ -12,7 +12,6 @@ $(function () {
         $backgroundImage.removeClass('animation-bg');
         currentIndex = (currentIndex + 1) % images.length;
         var imagePath = images[currentIndex];
-        $backgroundImage.css("background-image", "url('" + imagePath + "')");
         $backgroundImage[0].offsetHeight;
         $backgroundImage.addClass('animation-bg');
 
